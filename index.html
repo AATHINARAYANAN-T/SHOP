@@ -1,7 +1,9 @@
 <!DOCTYPE html>
 <html>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <head>
 <meta name="viewport" content="width=device-width, initial-scale=1">
+
 <style>
 
 body 
@@ -18,6 +20,9 @@ nav
 background-color:#0082e6;
 width:100%;
 height:90px;
+
+
+
 }
 
 .sidenav {
@@ -67,12 +72,13 @@ top:-80px;
 
 }
 
-h1
+h3
 {
 color:white;
+font-family:Calibri,Helvetica,Sana-serif;
 position:relative;
-left:100px;
-bottom:140px;
+left:60px;
+bottom:125px;
 }
 
 
@@ -86,7 +92,7 @@ img {vertical-align: middle;}
   max-width: 1000px;
   position: relative;
   margin: auto;
-  bottom: 120px;
+  bottom: 97px;
 }
 
 /* Caption text */
@@ -169,10 +175,98 @@ border-radius:20px;
 
 
 }
+img.black
+{
+position:absolute;
+top:380px;
+border-radius:20px;
+
+}
+
+
+
+.fa {
+  padding: 20px ;
+  font-size: 30px;
+  width: 70px;
+  text-align: center;
+  text-decoration: none;
+  margin: 2px 2px;
+position: relative;
+  right: -190px;
+bottom: 30px;
+ background: white;
+border-radius: 36px;
+
+}
+
+.fa-facebook {
+  background:  #3B5998;
+  color: white;
+ position:relative;
+left:40px;
+top:10px;
+
+
+
+}
+
+.fa-instagram {
+  background: #125688;
+  color: white;
+position:relative;
+left:40px;
+top:10px;
+
+}
+
+.fa-google {
+  background: #dd4b39;
+  color: white;
+ position:relative;
+left:40px;
+top:10px;
+}
+nav.social
+{
+background:white;
+width:100%;
+heigth:90px;
+}
+#search
+{
+ height:30px;
+ width:200px;
+ border-radius:20px;
+ text-align:center;
+
+position:relative;
+top:10px;
+left:140px;
+}
+#button
+{
+height:30px;
+width:60px;
+position:relative;
+top:50px;
+left:10px;
+border-radius:10px;
+background:#0082e6;
+color:white;
+
+}
+
 </style>
 
 </head>
 <body>
+
+
+
+
+
+
 
 <nav>
 <div id="mySidenav" class="sidenav">
@@ -184,9 +278,16 @@ border-radius:20px;
   <a href="login.php">Login</a>
   <a href="signin.php">Signin</a>
 </div>
+<form>
+<input type="search"  placeholder="search" name="search" id="search">
+<button id = "button">search</button>
+</form>
+</body>
+</html>
+
 </nav>
 <span style = "font-size:30px;cursor:pointer;"  onclick="openNav()">&#9776; </span>
-<h1 style="font-family:Calibri,Helvetica,Sana-serif";>WEAR</h1>
+<h3>WEAR</h3>
 <script>
 function openNav() {
   document.getElementById("mySidenav").style.width = "70%";
@@ -249,45 +350,52 @@ function showSlides() {
   setTimeout(showSlides, 3000); // Change image every 2 seconds
 }
 </script>
+<img src="th (1).jpg" class="black" width="100%" height="100px";>
 <tr class="man">
-<td><center><img src="fm.jpeg"class="task" height="280px" width="220px"></center></td>
+<td><center><a href="vicky.html"><img src="fm.jpeg"class="task" height="280px" width="220px"></a></center></td>
 <br>
 <br>
-<td><center><button class="but">SHOPNOW</button></center></td>
+<td><center><a href="vicky.html"><button class="but">SHOPNOW</button></a></center></td>
 </tr>
 <br>
 <br>
 <tr>
-<td><center><img src="fm.jpeg"class="task" height="280px" width="220px"></center></td>
+<td><center><a href="vicky.html"><img src="fm.jpeg"class="task" height="280px" width="220px"></a></center></td>
 <br>
 <br>
-<td><center><button class="but">SHOPNOW</button></center></td>
+<td><center><a href="vicky.html"><button class="but">SHOPNOW</button></a></center></td>
 </tr>
 <br>
 <br>
 <tr>
-<td><center><img src="fm.jpeg"class="task" height="280px" width="220px"></center></td>
+<td><center><a href="vicky.html"><img src="fm.jpeg"class="task" height="280px" width="220px"></a></center></td>
 <br>
 <br>
-<td><center><button class="but">SHOPNOW</button></center></td>
+<td><center><a href="vicky.html"><button class="but">SHOPNOW</button></a></center></td>
 </tr>
 <br>
 <br>
 <tr>
-<td><center><img src="fm.jpeg"class="task" height="280px" width="220px"></center></td>
+<td><center><img src="fm.jpeg"class="task" height="280px" width="220px"></a></center></td>
 <br>
 <br>
-<td><center><button class="but">SHOPNOW</button></center></td>
+<td><center><a href="vicky.html"><button class="but">SHOPNOW</button></a></center></td>
 </tr>
 <br>
 <br>
 <tr>
-<td><center><img src="fm.jpeg"class="task" height="280px" width="220px"></center></td>
+<td><center><a href="vicky.html"><img src="fm.jpeg"class="task" height="280px" width="220px"></a></center></td>
 <br>
 <br>
-<td><center><button class="but">SHOPNOW</button></center></td>
+<td><center><a href="vicky.html"><button class="but">SHOPNOW</button></a></center></td>
 </tr>
 <br>
 <br>
+<img src="f.jpg" width="100%" height="80px";>
+<nav class="social">
+<a href="#" class="fa fa-facebook"></a>
+<a href="#" class="fa fa-instagram"></a>
+<a href="#" class="fa fa-google"></a>
+</nav>
 </body>
 </html> 
