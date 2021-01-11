@@ -1,0 +1,87 @@
+<htmL>
+<head>
+<center><h1>STUDENT LOGIN</h1></center>
+
+<script>
+function collage()
+{
+var USERNAME= document.forms["Form_name"]["uname"];
+var PASSWORD= document.forms["Form_name"]["pass"];
+if(Form_name.uname.value == "")
+{
+alert("enter name");
+}
+if(Form_name.pass.value == "")
+{
+alert("enter your password");
+}
+}
+</script>
+<style>
+body
+{
+font-family:Calibri,Helvetica,Sana-serif;
+background-color:#FFFF00;
+}
+#uname
+{
+width:50%;
+height:30px;
+padding:20px;
+border-radius:30px;
+}
+#pass
+{
+width:50%;
+height:30px;
+padding:20px;
+border-radius:30px;
+}
+label.uname
+{
+font-weight:bold;
+font-size: 20px;
+}
+label.pass
+{
+font-weight:bold;
+font-size: 20px;
+}
+img
+{
+height:100px;
+width:100px;
+
+}
+button.ok
+{
+padding:10px;
+border-radius:30px;
+width:120px;
+top:30px;
+background-color:yellow;
+
+}
+
+</style>
+
+</head>
+<body>
+
+<center><img src="prof.png"></center>
+<br>
+<br>
+<form onsubmit="return collage()" name="Form_name">
+<center><label class="uname" >USERNAME</label> : <b><input type="text" name="uname" id="uname" value=""></center></b>
+<br>
+<center><label class="pass" >PASSWORD</label> : <b><input type="password" name="pass" id = "pass" value=""></b></center>
+<br>
+ <center><button type="submit" class="ok">LOGIN</button></center><br>
+<center><h3 style="color:green " >If you are new here.?plaese,<a href="signin.html"><h3>SIGHIN</h3></center>
+
+
+<input type="checkbox" checked="unchecked">
+Forget<a href="#">password?</href>
+</form>
+</body>
+</hmtl>
